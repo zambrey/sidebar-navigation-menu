@@ -1,0 +1,63 @@
+.menuContainer {
+    height:300px;
+    width:200px;
+    background: #111111;
+    font-family:"calibri";
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.movingDiv {
+    position: absolute;
+    left:0px;
+    -webkit-transition:left 0.25s ease-out;
+}
+.menu {
+    position: absolute;
+    top:0px;
+    display:none;
+    opacity: 0.0;
+    -webkit-transition:all 0.25s ease-out;
+}
+.menuItemsSection {
+    height: 160px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.menuTitle {
+    height: 40px;
+    background: #FF4136;
+    text-align: center;
+    line-height: 40px;
+    color:#FFFFFF;
+    font-weight: bold;
+    width: 200px;
+}
+.menuItem {
+    height: 30px;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    background: #111111;
+    color:#AAAAAA;
+    -webkit-transition: all 0.15s linear;
+    cursor: pointer;
+    border-bottom: solid 1px rgba(170,170,170,0.2);
+}
+.menuItem:hover {
+    background: #AAAAAA;
+    color:#111111;
+}
+.navback {
+    width:30px;
+    height: 40px;
+    position: absolute;
+    color: #FFDC00;
+    left:0px;
+    top:0px;
+    cursor: pointer;
+}
+#log
+{
+    float: left;
+}
